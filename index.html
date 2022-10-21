@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pg ejemplo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href=''>
+    <script src=''></script>
+</head>
+<body>
+    <!--El formulario recarga la página por lo cual al dar click en el boton se refrescara el formulario-->
+    <form id="form">
+        <h1 class = 'Nuevo atributo'>Este es el titulo</h1>
+        <input id = "calculo1" placeholder="valor" type="">
+        <input onchange="console.log('Cambio el input')" id = "calculo2" placeholder="valor" type="">
+        <button id = "btnCalcular">Calcular</button>
+        <p id="resultado"></p>
+    </form>
+</body>
+<script src='./LeyendoHTMLdesdeJavaScript.js'></script>
+</html>
